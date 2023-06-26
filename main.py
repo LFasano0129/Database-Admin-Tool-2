@@ -101,7 +101,7 @@ def insert_user():
     user_list.append(user)
 
     with open("UD.txt", "a") as file:
-        file.write(f"{first_name}, {last_name}, {username}, {password}\n")
+        file.write(f"{first_name},{last_name},{username},{password}\n")
 
 
 # function to display all user data
